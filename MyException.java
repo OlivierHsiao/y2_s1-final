@@ -11,14 +11,14 @@ public class MyException extends Exception {
         // try {
         MyException a = new MyException();
         MyException b = new MyException("This is my exception b");
-        // throw a;
-        throw b;
+        throw a;
+        // throw b;
         // } catch (MyException e) {
         // System.out.println(e);
         // }
 
         // opt1: try and catch
         // opt2: throws
-        // do either before compile the code if it is checked exception
+        // do either before compile the code if it is checked
     }
 }
