@@ -13,4 +13,7 @@ public class Outer {
         System.out.println("It's barking");
     }
 
+    public static void main(String[] args) {
+
+    }
 }
